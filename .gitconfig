@@ -1,0 +1,15 @@
+[alias]
+	o = checkout
+	c = commit -am
+	ca = commit --amend -m
+	cd = commit --dry-run
+	s = status
+	b = branch
+	l = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	l1 = log -1
+	d = cat-file -p
+	a = add --all
+	a1 = add
+	r = reset --mixed
+    cfgi = config --local include.path ../.gitconfig
+	remv = remote -v
